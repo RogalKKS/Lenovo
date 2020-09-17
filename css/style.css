@@ -13,7 +13,7 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
 
 .title-header {
   color: #FFFFFF;
-  font-family: Gotham;
+  font-family: Gotham, sans-serif;
   font-size: 50px;
   line-height: 56px;
   text-align: left;
@@ -22,7 +22,7 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
 
 .content {
   color: #FFFFFF;
-  font-family: Gotham;
+  font-family: Gotham, sans-serif;
   font-size: 16px;
   line-height: 26px;
   text-align: left;
@@ -39,7 +39,7 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
 
 .description-title {
   color: #000000;
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   font-size: 20px;
   line-height: 30px;
   text-align: left;
@@ -47,7 +47,7 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
 
 .property {
   color: #000000;
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   font-size: 20px;
   line-height: 30px;
   text-align: left;
