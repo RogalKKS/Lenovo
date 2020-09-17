@@ -4,15 +4,15 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
 }
 
 .logo-lenovo {
-    height: 200px;
+  height: 200px;
 }
 
 .header-container {
   background-color: #408DDC;
 }
 
-.tittle-header {
-    color: #FFFFFF;
+.title-header {
+  color: #FFFFFF;
   font-family: Gotham;
   font-size: 50px;
   line-height: 56px;
@@ -21,53 +21,53 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
 }
 
 .content {
-    color: #FFFFFF;
-    font-family: Gotham;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: left;
-    position: relative;
-  }
+  color: #FFFFFF;
+  font-family: Gotham;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  position: relative;
+}
 
-  .product-title{
-    color: #000000;
-    font-family:  Lato, sans-serif;
-    font-size: 50px;
-    line-height: 60px;
-    text-align: left;
-  }
+.product-title{
+  color: #000000;
+  font-family:  Lato, sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: left;
+}
 
-  .description-title {
-      color: #000000;
-      font-family: Lato;
-      font-size: 20px;
-      line-height: 30px;
-      text-align: left;
-  }
+.description-title {
+  color: #000000;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
 
-  .property {
-    color: #000000;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
-  }
+.property {
+  color: #000000;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
 
-  .star {
-    font-size: 11px;
-  }
+.asterisk {
+  font-size: 11px;
+}
 
-  .list-group {
-    list-style: decimal;
-    padding-left: 20px;
-  }
+.list-group {
+  list-style: decimal;
+  padding-left: 20px;
+}
 
-  .property tr:nth-child(1) td {
-    border: none;
-  }
+.property tr:nth-child(1) td {
+  border: none;
+}
 
-  @media only screen and (max-width: 380px) {
-    .container {
-      padding-left: 10px;
-    }
+@media only screen and (max-width: 380px) {
+  .container {
+  padding-left: 10px;
   }
+}
