@@ -1,0 +1,79 @@
+@font-face{
+font-family: Gotham;
+src:url(/fonts/HomepageBaukasten-Book.ttf);
+}
+
+.logo-lenovo {
+    height: 200px;
+}
+
+.header-container {
+  background-color: #408DDC;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+.tittle-header {
+    color: #FFFFFF;
+  font-family: Gotham;
+  font-size: 50px;
+  line-height: 56px;
+  text-align: left;
+  position: relative;
+}
+
+.col-sm-12 .tittle-header span {
+  white-space: nowrap;
+}
+
+.content {
+    color: #FFFFFF;
+    font-family: Gotham;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    position: relative;
+  }
+
+  .product-title{
+    color: #000000;
+    font-family:  Lato, sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    width: 1321px;
+    text-align: left;
+  }
+
+  .description-title {
+      color: #000000;
+      font-family: Lato;
+      font-size: 20px;
+      line-height: 30px;
+      width: 1321px;
+      text-align: left;
+  }
+
+  .property {
+    color: #000000;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 30px;
+    width: 1317px;
+    text-align: left;
+  }
+
+  .line {
+    border: 1px solid #979797;
+    opacity: 0.3;
+  }
+
+  .star {
+    font-size: 11px;
+  }
+
+  .list-group {
+    list-style: decimal;
+    padding-left: 20px;
+  }
