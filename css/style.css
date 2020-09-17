@@ -11,10 +11,6 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
   background-color: #408DDC;
 }
 
-.container-fluid {
-    padding-left: 0px;
-}
-
 .tittle-header {
     color: #FFFFFF;
   font-family: Gotham;
@@ -22,10 +18,6 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
   line-height: 56px;
   text-align: left;
   position: relative;
-}
-
-.col-sm-12 .tittle-header span {
-  white-space: nowrap;
 }
 
 .content {
@@ -42,7 +34,6 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
     font-family:  Lato, sans-serif;
     font-size: 50px;
     line-height: 60px;
-    width: 1321px;
     text-align: left;
   }
 
@@ -51,7 +42,6 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
       font-family: Lato;
       font-size: 20px;
       line-height: 30px;
-      width: 1321px;
       text-align: left;
   }
 
@@ -60,13 +50,7 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
     font-family: Lato;
     font-size: 20px;
     line-height: 30px;
-    width: 1317px;
     text-align: left;
-  }
-
-  .line {
-    border: 1px solid #979797;
-    opacity: 0.3;
   }
 
   .star {
@@ -76,4 +60,14 @@ src:url(/fonts/HomepageBaukasten-Book.ttf);
   .list-group {
     list-style: decimal;
     padding-left: 20px;
+  }
+
+  .property tr:nth-child(1) td {
+    border: none;
+  }
+
+  @media only screen and (max-width: 380px) {
+    .container {
+      padding-left: 10px;
+    }
   }
